@@ -104,6 +104,9 @@ let swiperPortfolio = new Swiper('.portfolio__container', {
       el: '.swiper-pagination', 
       clickable: true,
     },
+    autoplay: {
+        delay: 3000,
+    },
 });
 
 
@@ -118,11 +121,14 @@ let swiperTestimonial = new Swiper('.testimonial__container', {
       clickable: true,
       dynamicBullets: true,
     },
-    breakpoints:{
+    breakpoints: {
         568:{
             slidesPerView: 2,
         }
-    }
+    },
+    autoplay: {
+        delay: 5000,
+    },
 });
 
 /*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
